@@ -26,10 +26,11 @@ cover:
     hidden: true 
 ---
 
+{{< katex >}}
 
 ## content
 
-![图片](1.png)
+![图片](images/1.png)
 
 这是一个行内公式： $a^2+b^2=1$. 下面的是块级公式
 $$ 
@@ -59,3 +60,7 @@ x = \begin{cases}
    c &\text{if } d
 \end{cases}
 $$
+
+
+
+{{< embed-pdf url="post/first/files/test.pdf" >}}
